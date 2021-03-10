@@ -188,9 +188,9 @@ module tester(part, pt2, explode=0) {
 
 //tester("assembly", explode=20);
 //tester("assembly");
-tester("micro-usb-house-test");
+//tester("micro-usb-house-test");
 //micro_usb_stabilizer(front_pad=2);
-//tester("bottom");
+tester("bottom");
 //switch_hole();
 
 // Requires my utility functions in your OpenSCAD lib or as local submodule
